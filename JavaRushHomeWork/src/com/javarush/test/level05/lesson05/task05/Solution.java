@@ -14,7 +14,7 @@ public class Solution {
         Cat cat2 = new Cat("Jerry", 4, 2, 6);
         Cat cat3 = new Cat("Patric", 3,3, 4);
 
-        
+
 
         System.out.println(cat1.fight(cat2));
         System.out.println(cat1.fight(cat3));
