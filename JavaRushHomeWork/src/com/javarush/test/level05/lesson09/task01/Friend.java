@@ -1,7 +1,7 @@
-package com.javarush.test.level05.lesson07.task01;
+package com.javarush.test.level05.lesson09.task01;
 
 /* Create a class Friend
-Create a class Friend with three initializers (three methods initialize):
+Create a class Friend with three constructors:
     - Name
     - Name, age
     - Name, age, sex
@@ -14,21 +14,24 @@ public class Friend
     private int age;
     private String sex;
 
-    public void initialize(String name)
-    {
+    public Friend(String name){
         this.name = name;
     }
 
-    public void initialize(String name, int age)
-    {
+    public Friend(String name, int age){
         this.name = name;
         this.age = age;
     }
 
-    public void initialize(String name, int age, String sex)
-    {
+    public Friend(String name, int age, String sex){
         this.name = name;
         this.age = age;
         this.sex = sex;
     }
+
+    public static void main(String[] args)
+    {
+
+    }
+
 }
